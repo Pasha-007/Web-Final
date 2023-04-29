@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body style="background: #FFEDE1">
+    <header class="header">
+        <div class="container">
+            <div class="header_block">
+                <a href="#" class="header_logo"><img src="/Image/Pizza.png" alt="img"></a>
+                    <nav class="header_menu" id="menu">
+                        <ul>
+                            <li class="header_item"><a href="#">Home</a></li>
+                            <li class="header_item"><a href="#">Menu</a></li>
+                            <li class="header_item"><a href="#">Pricing</a></li>
+                            <li class="header_item"><a href="#">About us</a></li>
+                            <li class="header_item"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                  <div class="header_right">
+                    <button class="header_button">Sign in</button>
+                    <button class="header_button">Sign up</button>
+                  </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div class="main_block">
+                <div class="main_text">
+                    <h1>Pizza, solution to all <br> your <span>problems</span></h1>
+                    <p>Order your favorite pizza with just a few clicks and have it <br> delivered straight to your doorstep.</p>
+                    <div class="main_button">
+                        <button class="main_item">Sign in</button>
+                        <button class="main_item">Sign up</button>
+                    </div>
+                </div>
+                <div class="main_image">
+                    <img src="/Image/main.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="container">
+            <div class="testimonials_block">
+                <h1></h1>
+                <p></p>
+                <div class="testimonials_images">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+    
+</body>
+</html>
